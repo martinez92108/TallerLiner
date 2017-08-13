@@ -232,8 +232,6 @@
 
 
                 </LinearLayout>
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -276,7 +274,6 @@
 
 
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -517,6 +514,132 @@
                             android:layout_below="@id/textg4"
                             android:textSize="15sp"/>
                     </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="1dp"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenface11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+
+                        <TextView
+                            android:id="@+id/textface11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="my trip to italy"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenface11"
+                            android:textSize="15sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ijust returnet fom itali"
+                            android:layout_toRightOf="@id/imagenface11"
+                            android:layout_below="@id/textface11"
+                            android:textSize="15sp"/>
+
+
+
+
+
+
+                    </RelativeLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenw9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+
+                        <TextView
+                            android:id="@+id/textw9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="amazing story of a faihful dog"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenw9"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="hfdrvhgvhgvhgvhgvghv"
+                            android:layout_toRightOf="@id/imagenw9"
+                            android:layout_below="@id/textw9"
+                            android:textSize="15sp"/>
+
+
+
+                    </RelativeLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imagenc09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"
+                            />
+                        <TextView
+                            android:id="@+id/textc09"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="my pasion for music"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenc09"
+                            android:textSize="15sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="hvghchgchgchgchgchchchchchc"
+                            android:layout_toRightOf="@id/imagenc09"
+                            android:layout_below="@id/textc09"
+                            android:textSize="15sp"/>
+
+                    </RelativeLayout>
+
                 </LinearLayout>
 
 
