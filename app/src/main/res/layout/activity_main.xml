@@ -13,11 +13,7 @@
         android:id="@+id/rl1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        >
 
         <ImageView
             android:id="@+id/img"
@@ -25,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:scaleType="fitCenter"
-            android:src="@drawable/smi"
+            android:src="@drawable/linux"
             android:layout_centerHorizontal="true" />
 
         <TextView
@@ -33,9 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SAMARA MARTINEZ"
-            android:textColor="@color/color"
+
+            android:textColor="@color/col"
             android:textSize="10pt"
-            android:padding="10dp"
 
 
             android:layout_alignParentTop="true"
@@ -46,11 +42,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/maps"
-            android:layout_below="@id/txt1"
-            android:layout_alignLeft="@id/txt1"
 
 
-            />
+            android:layout_alignBottom="@+id/txt3"
+            android:layout_alignLeft="@+id/txt1"
+            android:layout_alignStart="@+id/txt1" />
+
         <TextView
             android:id="@+id/txt3"
             android:layout_width="wrap_content"
@@ -58,8 +55,12 @@
             android:text="Pasto, Narño Colombia"
             android:textColor="@color/col"
             android:padding="10dp"
+            android:textSize="15dp"
             android:layout_below="@+id/txt1"
-            android:layout_centerHorizontal="true" />
+            android:layout_toRightOf="@+id/img2"
+            android:layout_toEndOf="@+id/img2"
+            android:layout_marginLeft="31dp"
+            />
 
 
 
@@ -69,28 +70,493 @@
 
 
     </RelativeLayout>
-    <LinearLayout
+
+    <RelativeLayout
+        android:id="@+id/trl3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@id/rl1"
+        android:layout_below="@+id/rl1"
         >
-        <TextView
 
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/txt1"
-            android:text="42"
-            android:textSize="20sp"
+            >
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="72"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+
+                />
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="segidores"
+                android:textSize="15sp"
+
+                android:layout_below="@id/txt5"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="517"
+                android:textSize="20sp"
+                android:textStyle="bold"
 
 
-            />
+
+                />
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="followers"
+                android:textSize="15sp"
+                android:layout_below="@id/txt6"
+
+                />
 
 
 
-    </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="284"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+
+                />
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="following"
+                android:textSize="15sp"
+                android:textAlignment="center"
+
+                android:layout_below="@id/txt8"
+
+                />
 
 
 
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/trl3"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/j1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="1dp"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenface"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+
+                        <TextView
+                            android:id="@+id/textface"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="my trip to italy"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenface"
+                            android:textSize="15sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ijust returnet fom itali"
+                            android:layout_toRightOf="@id/imagenface"
+                            android:layout_below="@id/textface"
+                            android:textSize="15sp"/>
+
+
+
+
+
+
+                    </RelativeLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+
+                        <TextView
+                            android:id="@+id/textw"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="amazing story of a faihful dog"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenw"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="hfdrvhgvhgvhgvhgvghv"
+                            android:layout_toRightOf="@id/imagenw"
+                            android:layout_below="@id/textw"
+                            android:textSize="15sp"/>
+
+
+
+                    </RelativeLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imagenc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"
+                            />
+                        <TextView
+                            android:id="@+id/textc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="my pasion for music"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenc"
+                            android:textSize="15sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="hvghchgchgchgchgchchchchchc"
+                            android:layout_toRightOf="@id/imagenc"
+                            android:layout_below="@id/textc"
+                            android:textSize="15sp"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagens"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/texts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="linux"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagens"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="windows"
+                            android:layout_toRightOf="@id/imagens"
+                            android:layout_below="@id/texts"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="iso"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageng"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="kdnjhdfjfjjf"
+                            android:layout_toRightOf="@id/imageng"
+                            android:layout_below="@id/textg"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageng1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textg1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="iso"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageng1"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="kdnjhdfjfjjf"
+                            android:layout_toRightOf="@id/imageng1"
+                            android:layout_below="@id/textg1"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageng2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textg2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="iso"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageng2"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="kdnjhdfjfjjf"
+                            android:layout_toRightOf="@id/imageng2"
+                            android:layout_below="@id/textg2"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageng3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textg3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="iso"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageng3"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="kdnjhdfjfjjf"
+                            android:layout_toRightOf="@id/imageng3"
+                            android:layout_below="@id/textg3"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageng4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/maps"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textg4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="iso"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageng4"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="kdnjhdfjfjjf"
+                            android:layout_toRightOf="@id/imageng4"
+                            android:layout_below="@id/textg4"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
 
 </RelativeLayout>
