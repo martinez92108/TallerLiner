@@ -246,7 +246,7 @@
                             android:id="@+id/imagenw"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j2"
                             android:layout_margin="10sp"/>
 
                         <TextView
@@ -289,7 +289,7 @@
                             android:id="@+id/imagenc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j3"
                             android:layout_margin="10sp"
                             />
                         <TextView
@@ -325,7 +325,7 @@
                             android:id="@+id/imagens"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j4"
                             android:layout_margin="10sp"/>
                         <TextView
                             android:id="@+id/texts"
@@ -359,7 +359,7 @@
                             android:id="@+id/imageng"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j7"
                             android:layout_margin="10sp"/>
                         <TextView
                             android:id="@+id/textg"
@@ -393,7 +393,7 @@
                             android:id="@+id/imageng1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j8"
                             android:layout_margin="10sp"/>
                         <TextView
                             android:id="@+id/textg1"
@@ -427,7 +427,7 @@
                             android:id="@+id/imageng2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j9"
                             android:layout_margin="10sp"/>
                         <TextView
                             android:id="@+id/textg2"
@@ -461,7 +461,7 @@
                             android:id="@+id/imageng3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j10"
                             android:layout_margin="10sp"/>
                         <TextView
                             android:id="@+id/textg3"
@@ -495,7 +495,7 @@
                             android:id="@+id/imageng4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j11"
                             android:layout_margin="10sp"/>
                         <TextView
                             android:id="@+id/textg4"
@@ -529,7 +529,7 @@
                             android:id="@+id/imagenface11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j20"
                             android:layout_margin="10sp"/>
 
                         <TextView
@@ -576,7 +576,7 @@
                             android:id="@+id/imagenw9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/maps"
+                            android:background="@drawable/j5"
                             android:layout_margin="10sp"/>
 
                         <TextView
